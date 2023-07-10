@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>CSS ANIMATION</h1>
+<style>
+
+
+    div {
+        width: 500px;
+        height: 350px;
+        color: white;
+        width: 300px;
+        height: 300px;
+        background-color: purple;
+        border-color: pink;
+        border-radius: 50px;
+        animation-name: LIZ;
+        position: relative;
+        animation-duration: 10s;
+        animation-delay: 1s;
+        animation-iteration-count: 4;
+        animation-direction: alternate-reverse;
+        animation-fill-mode: both;  
+        
+    }
+
+    @keyframes LIZ {
+         0% {background-color: purple; left: 0px; top: 0px;}
+         25% {background-color: greenyellow; left: 1000px; top: 0px;}
+         50% {background-color: pink; left: 1000px; top: 400px;}
+         75% {background-color: chocolate; left: 0px; top: 400px;}
+         100% {background-color: palegreen; left: 0px; top: 0px;}
+    }
+</style>
+<div></div>
+
+</head>
+<body>
+    
+</body>
+</html>
